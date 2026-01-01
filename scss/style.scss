@@ -1,0 +1,115 @@
+@use "global";
+
+$balance-color: rgb(45, 227, 247);
+$secondary-text-color: rgb(126, 152, 176);
+@mixin flex-span() {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.flex-wrapper {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  color: white;
+  background-color: #021b3a;
+  p {
+    font-size: 14px;
+  }
+}
+
+.card {
+  width: 300px;
+  padding: min(1.2em, 8%);
+  background-color: rgb(21 39 63);
+  border-radius: 1em;
+
+  .img-container {
+    position: relative;
+
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 0.5em;
+    }
+  }
+
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: rgba($balance-color, 0.5);
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
+
+    img {
+      width: 30px;
+    }
+  }
+
+  #overlay:hover {
+    opacity: 100%;
+  }
+
+  .img-container:hover,
+  .collection-name:hover,
+  .author .name:hover {
+    transition: all 0.35s;
+    color: $balance-color;
+    cursor: pointer;
+  }
+
+  .primary {
+    color: white;
+  }
+
+  .secondary {
+    color: $secondary-text-color;
+  }
+  .price-tag {
+    @include flex-span;
+    color: $balance-color;
+  }
+
+  .end-time {
+    @include flex-span;
+  }
+  .flex-container {
+    padding: 0.4em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content {
+    padding: 1.2em 0;
+  }
+
+  .author {
+    padding-top: 1em;
+    border-top: 1px rgb(79, 80, 83) solid;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+
+    .avatar {
+      width: 30px;
+      border: 1px white solid;
+      border-radius: 50%;
+    }
+  }
+}
