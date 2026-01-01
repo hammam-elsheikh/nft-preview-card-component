@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/hammam-elsheikh/nft-preview-card-component)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL]([https://your-live-site-url.com](https://himo-dev-nft-preview-card.netlify.app/))
 
 ### Built with
 
