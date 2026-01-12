@@ -46,6 +46,6 @@ display : block;
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Linkedin - [Hammam Elsheikh](https://www.linkedin.com/in/hammam-elsheikh/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@HammamElsheikh](https://www.x.com/HammamElsheikh)
