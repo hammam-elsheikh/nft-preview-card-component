@@ -47,5 +47,5 @@ display : block;
 ## Author
 
 - Linkedin - [Hammam Elsheikh](https://www.linkedin.com/in/hammam-elsheikh/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@hammam-elsheikh](https://www.frontendmentor.io/profile/hammam-elsheikh)
 - Twitter - [@HammamElsheikh](https://www.x.com/HammamElsheikh)
